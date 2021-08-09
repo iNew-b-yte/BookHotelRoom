@@ -1,7 +1,7 @@
 /**
  * A simple contract the let users book hotel rooms.
  * This contract has four basic functionalities which let the the owner set the cost of room, let users book the room,
- * let users check their details and a checkout function so users csn leave the room.
+ * let users check their details and a checkout function so users can leave the room.
  * It also has a special function "receive" which let the contract receive payments. 
  * 
  */
@@ -112,7 +112,7 @@ contract BookHotelRoom is _BookHotelRoom, modified{
         uint56 mobile_No;
 
     }
-    MyBooking myRoom;
+    
     
     //defining a mapping with address as key and MyBooking as value
     mapping(address => MyBooking) MyRoom;
